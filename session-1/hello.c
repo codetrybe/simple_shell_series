@@ -5,7 +5,7 @@
 void say_hello(char *name);
 int main(int ac, char **av)
 {
-	//argv[] = {"./hello", "Topman", "Paul-Dike"};
+	//argv[] = {"./hello", "Topman", "Paul-Dike", NULL};
 	printf("The last argument passed was %s\n", av[ac-1]);
 	printf("You passed %i arguments\n", ac-1);
 
